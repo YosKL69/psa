@@ -3,18 +3,17 @@
 echo -e "\e[1m\e[34mUpdating/upgrading apt and pkg thank you....\e[21m"
  echo " "
 
-  echo -e "\e[3m\e[35m made by YosKL69 find me at github\e[21m''
-  echo " "
+ echo -e "\e[3m\e[35m made by YosKL69 find me at github\e[21m''
+ echo " "
   
-    echo -e  "\e[3m\e[34mPkg updating......\e[21m"
-    echo " "
-
-  echo -e "\e[3m\e[34mPkg updating..............\e[21m"
-  pkg update -y
-  pause 1 
-  echo " "
+   echo -e  "\e[3m\e[34mPkg updating......\e[21m"
+  
+    echo -e "\e[3m\e[34mPkg updating..............\e[21m"
+     pkg update -y
+     pause 1 
+     echo " "
  
-echo -e "\e[3m\e[34m Done next apt...\e[21m"
+  echo -e "\e[3m\e[34m Done next apt...\e[21m"
    apt update -y
    echo " "
    pause 1
