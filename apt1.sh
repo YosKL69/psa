@@ -26,12 +26,12 @@ echo -e "\e[3m\e[34mDone pkg upgrade\e[21m"
   echo " " 
   pause 1
 
-echo -e "\e[3m\e[34mNext apt upgrading\e[21m"
+ echo -e "\e[3m\e[34mNext apt upgrading\e[21m"
   apt upgrade -y
   echo " " 
   pause 1
-
-echo -e  "\e[5m\e[31mAll done.Your Pkg and Apt are all update and upgrade. Shortcut by YosKL69" 
+ 
+ echo -e  "\e[5m\e[31mAll done.Your Pkg and Apt are all update and upgrade. Shortcut by YosKL69" 
 
 
   
