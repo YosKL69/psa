@@ -1,4 +1,4 @@
-#!/system/bin/sh
+K#!/system/bin/sh
  Clear
  echo " "
 
@@ -9,7 +9,7 @@ echo -e "\e[3m\e[35m made by YosKL69 find me at github\e[21m''
  echo " "
  pause 1
   
-echo -e  "\e[3m\e[34mPkg updating......\e[21m"
+echo -e "\e[3m\e[34mPkg updating......\e[21m"
  echo
  
 
@@ -27,20 +27,20 @@ echo -e "\e[3m\e[34mdone next upgrading...\e[21m""
  echo " "
  pause 1
 
-echo -e "\e[3m\e[34mDone pkg upgrade\e[21m"
+echo "\e[3m\e[34mDone pkg upgrade\e[21m"
  echo " " 
- ause 1
+ pause 1
 
-echo -e "\e[3m\e[34mNext apt updating\e[21m"
+echo "\e[3m\e[34mNext apt updating\e[21m"
  apt update -y
  echo " " 
  pause 1
 
-echo -e "\e[3m\e[34mDone pkg upgrade\e[21m"
+echo "\e[3m\e[34mDone pkg upgrade\e[21m"
  echo " " 
  pause 1
 
-echo -e "\e[3m\e[34mNext apt updating\e[21m"
+echo "\e[3m\e[34mNext apt updating\e[21m"
  apt update -y
  echo " " 
  pause 1
