@@ -1,6 +1,4 @@
-apt1.sh
- 
- #!/system/bin/sh
+#!/system/bin/sh
 echo " "
 
 echo -e "\e[1m\e[34mUpdating/upgrading apt and pkg thank you....\e[21m"
