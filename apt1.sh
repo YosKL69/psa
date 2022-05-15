@@ -31,8 +31,17 @@ echo -e "\e[3m\e[34mDone pkg upgrade\e[21m"
  echo " " 
  ause 1
 
-echo -e "\e[3m\e[34mNext apt upgrading\e[21m"
- apt upgrade -y
+echo -e "\e[3m\e[34mNext apt updating\e[21m"
+ apt update -y
+ echo " " 
+ pause 1
+
+echo -e "\e[3m\e[34mDone pkg upgrade\e[21m"
+ echo " " 
+ pause 1
+
+echo -e "\e[3m\e[34mNext apt updating\e[21m"
+ apt update -y
  echo " " 
  pause 1
  
