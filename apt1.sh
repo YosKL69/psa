@@ -1,55 +1,48 @@
-K#!/system/bin/sh
- Clear
- echo " "
+#!/data/data/com.termux/files/usr/bash
+echo $red 
+ echo ""----------------------------------------------------------------------------- ""
+echo " selamat datang script ini dibuat oleh YosKL69"
+echo "---------------------------------------------------------------------------------"
 
-echo -e "\e[1m\e[34mUpdating/upgrading apt and pkg thank you....\e[21m" 
- echo " "
- 
-echo -e "\e[3m\e[35m made by YosKL69 find me at github\e[21m''
- echo " "
- pause 1
-  
-echo -e "\e[3m\e[34mPkg updating......\e[21m"
- echo
- 
+echo
 
-echo -e "\e[3m\e[34mPkg updating..............\e[21m"
- pkg update -y
- pause 1 
- 
-echo -e "\e[3m\e[34m Done next apt...\e[21m"
- apt update -y
- echo " "
- pause 1
+echo  "#####################################"
+echo   "  script untuk update dan upgrade pkg dan apt "               
+ echo   "Sila tunggu sebentar......."                                                                    
+echo   "####################################"
 
-echo -e "\e[3m\e[34mdone next upgrading...\e[21m""
- pkg upgrade -y
- echo " "
- pause 1
+echo
+echo
+echo
+echo
 
-echo "\e[3m\e[34mDone pkg upgrade\e[21m"
- echo " " 
- pause 1
+echo "."
+pkg update -y
+echo "......"
+echo ".....selesai....."
+echo "updating pkg sila tunggu sebentar"
+echo "........"
+echo "............."
 
-echo "\e[3m\e[34mNext apt updating\e[21m"
- apt update -y
- echo " " 
- pause 1
+echo "."
+pkg upgrade -y
+echo "......"
+echo ".....selesai....."
+echo "updating apt sila tunggu sebentar"
+echo "........"
+echo "............."
 
-echo "\e[3m\e[34mDone pkg upgrade\e[21m"
- echo " " 
- pause 1
+echo "."
+apt update -y
+echo "......"
+echo ".....selesai....."
+echo "updating pkg sila tunggu sebentar"
+echo "........"
+echo "............."
 
-echo "\e[3m\e[34mNext apt updating\e[21m"
- apt update -y
- echo " " 
- pause 1
- 
-echo -e  "\e[5m\e[31mAll done.Your Pkg and Apt are all update and upgrade. Shortcut by YosKL69" 
+echo "."
+apt upgrade -y
 
-
-  
-
-      
-
-
+echo "......"
+echo ".....selesai......."
+echo "update dan upgrading selesai"
